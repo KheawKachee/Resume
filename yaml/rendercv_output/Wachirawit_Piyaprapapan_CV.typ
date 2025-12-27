@@ -108,9 +108,9 @@
   main-column-second-row: [
     - GPAX: 3.46 (Second-class honours)
 
-    - Coursework: Data Science, Data Engineering, Optimization, Statistical Learning
+    - Coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization
 
-    - Capstone: Generative Video-Based Sky Image Forecasting with Thai Atmospheric Data
+    - Capstone: Generative Video-Based Sky Image Forecasting For Thai Sky Images
 
   ],
 )
@@ -161,7 +161,7 @@
 
   #regular-entry(
   [
-    #strong[On-Demand Delivery Data Platform & Decision Intelligence System]
+    #strong[On-Demand Delivery Data Platform & Decision Intelligence System (Ongoing)]
 
   ],
   [
@@ -169,7 +169,7 @@
   main-column-second-row: [
     - Designed and built a production-style data engineering pipeline with mocked datasets, supporting daily ingestion, ETL processing, and loading into a data warehouse (Airflow, Docker, Pandas)
 
-    - Performed EDA and business analytics on food order data, generating insights to support profit optimization and data-driven operational decisions (Ongoing)
+    - Performed EDA and business analytics on food order data, generating insights to support profit optimization and data-driven operational decisions
 
   ],
 )

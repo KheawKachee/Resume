@@ -1,0 +1,1 @@
+rendercv render $1 -nomd -nohtml -nopng --pdf-path ../output/$2.pdf
