@@ -167,9 +167,11 @@
   [
   ],
   main-column-second-row: [
-    - Designed and built a production-style data engineering pipeline with mocked datasets, supporting daily ingestion, ETL processing, and loading into a data warehouse (Airflow, Docker, Pandas)
+    - Built end-to-end data pipeline with ETL processing and ML model for delivery delay prediction (Airflow, Docker, Pandas, SQL)
 
-    - Performed EDA and business analytics on food order data, generating insights to support profit optimization and data-driven operational decisions
+    - Engineered temporal features and trained regularized classifier with proper time-series validation
+
+    - Translated model insights into actionable operational levers for delay prevention and rider optimization
 
   ],
 )
