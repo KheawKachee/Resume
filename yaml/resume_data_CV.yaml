@@ -53,8 +53,10 @@ cv:
     projects:
       - name: On-Demand Delivery Data Platform & Decision Intelligence System (Ongoing)
         highlights:
-          - Designed and built a production-style data engineering pipeline with mocked datasets, supporting daily ingestion, ETL processing, and loading into a data warehouse (Airflow, Docker, Pandas)
-          - Performed EDA and business analytics on food order data, generating insights to support profit optimization and data-driven operational decisions
+          - Built end-to-end data pipeline with ETL processing and ML model for delivery delay prediction (Airflow, Docker, Pandas, SQL)
+          - Engineered temporal features and trained regularized classifier with proper time-series validation
+          - Translated model insights into actionable operational levers for delay prevention and rider optimization
+
 
       - name: End-To-End Football Player Value Forecasting & Similarity Recommendation System
         highlights:
