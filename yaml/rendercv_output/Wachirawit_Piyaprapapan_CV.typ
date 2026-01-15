@@ -87,7 +87,7 @@
 
 #connections(
   [Bangkok, Thailand],
-  [#link("mailto:6530349721@student.chula.ac.th", icon: false, if-underline: false, if-color: false)[6530349721\@student.chula.ac.th]],
+  [#link("mailto:wachirawit.p.work@student.chula.ac.th", icon: false, if-underline: false, if-color: false)[wachirawit.p.work\@student.chula.ac.th]],
   [#link("tel:+66-98-828-2779", icon: false, if-underline: false, if-color: false)[098 828 2779]],
   [#link("https://linkedin.com/in/wachirawit-piyaprapapan", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/wachirawit-piyaprapapan]],
   [#link("https://github.com/KheawKachee", icon: false, if-underline: false, if-color: false)[github.com\/KheawKachee]],
@@ -106,7 +106,7 @@
 
   ],
   main-column-second-row: [
-    - GPAX: 3.46 (Second-class honours)
+    - GPAX: 3.44 (Second-class honours)
 
     - Coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization
 

@@ -3,7 +3,7 @@
 cv:
   name: Wachirawit Piyaprapapan
   location: Bangkok, Thailand
-  email: 6530349721@student.chula.ac.th
+  email: wachirawit.p.work@student.chula.ac.th
   phone: +66 98 828 2779
   social_networks:
     - network: LinkedIn
@@ -20,7 +20,7 @@ cv:
         end_date: 2026-05
         location: Bangkok, Thailand
         highlights:
-          - 'GPAX: 3.46 (Second-class honours)'
+          - 'GPAX: 3.44 (Second-class honours)'
           - 'Coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization'
           - 'Capstone: Generative Video-Based Sky Image Forecasting For Thai Sky Images'
 
