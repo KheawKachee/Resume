@@ -167,11 +167,11 @@
   [
   ],
   main-column-second-row: [
-    - Built end-to-end data pipeline with ETL processing and ML model for delivery delay prediction (Airflow, Docker, Pandas, SQL)
+    - Designed an end-to-end data science system to predict delivery delays and support operational decisions, covering data ingestion, feature engineering, model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker)
 
-    - Engineered temporal features and trained regularized classifier with proper time-series validation
+    - Built time-aware ML pipelines for delay prediction using engineered temporal, spatial, and rider-performance features; applied proper time-series validation to avoid data leakage
 
-    - Translated model insights into actionable operational levers for delay prevention and rider optimization
+    - Developed interpretable classification models and feature analyses to identify key delay drivers (distance, zone mismatch, peak hours, rider workload), translating insights into concrete levers for ETA accuracy, rider assignment, and SLA improvement
 
   ],
 )
@@ -188,7 +188,7 @@
 
     - Scraped and engineered features to find insights from player performance and transfer data for exploratory data analysis.
 
-    - Performed data analysis and visualization to identify key trends, patterns, and drivers influencing player performance and market value.
+      - Evaluated models using Log1p RMSE,Silhouette to ensure explainability and alignment with business risk trade-offs and further business plan takeaways.
 
   ],
 )

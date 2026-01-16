@@ -53,16 +53,15 @@ cv:
     projects:
       - name: On-Demand Delivery Data Platform & Decision Intelligence System (Ongoing)
         highlights:
-          - Built end-to-end data pipeline with ETL processing and ML model for delivery delay prediction (Airflow, Docker, Pandas, SQL)
-          - Engineered temporal features and trained regularized classifier with proper time-series validation
-          - Translated model insights into actionable operational levers for delay prevention and rider optimization
-
+          - Designed an end-to-end data science system to predict delivery delays and support operational decisions, covering data ingestion, feature engineering, model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker)
+          - Built time-aware ML pipelines for delay prediction using engineered temporal, spatial, and rider-performance features; applied proper time-series validation to avoid data leakage
+          - Developed interpretable classification models and feature analyses to identify key delay drivers (distance, zone mismatch, peak hours, rider workload), translating insights into concrete levers for ETA accuracy, rider assignment, and SLA improvement
 
       - name: End-To-End Football Player Value Forecasting & Similarity Recommendation System
         highlights:
           - Developed dual ML pipelines 1) Time-series regression to predict football players’ market values 2) unsupervised clustering to group players by performance style and role similarity.
           - Scraped and engineered features to find insights from player performance and transfer data for exploratory data analysis.
-          - Performed data analysis and visualization to identify key trends, patterns, and drivers influencing player performance and market value.
+           - Evaluated models using Log1p RMSE,Silhouette to ensure explainability and alignment with business risk trade-offs and further business plan takeaways.
 
     competitions:
       - name: I-squared Hackathon - Motorbike-Rider Annomally Detection and Classfication
