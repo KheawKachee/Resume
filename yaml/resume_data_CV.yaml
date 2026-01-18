@@ -51,24 +51,21 @@ cv:
           - Analyzed production data and translated insights into PLC control logic to improve operational efficiency ~10%.
 
     projects:
-      - name: On-Demand Delivery Data Platform & Decision Intelligence System (Ongoing)
-        highlights:
-          - Designed an end-to-end data science system to predict delivery delays and support operational decisions, covering data ingestion, feature engineering, model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker)
-          - Built time-aware ML pipelines for delay prediction using engineered temporal, spatial, and rider-performance features; applied proper time-series validation to avoid data leakage
-          - Developed interpretable classification models and feature analyses to identify key delay drivers (distance, zone mismatch, peak hours, rider workload), translating insights into concrete levers for ETA accuracy, rider assignment, and SLA improvement
+    - name: On-Demand Delivery Data Platform & Decision Intelligence System
+      highlights:
+        - Built an end-to-end data science system for delivery delay prediction, covering ingestion, feature engineering, time-aware model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker).
+        - Trained interpretable classification models with proper time-series validation; identified key delay drivers and translated insights into operational levers for ETA accuracy and SLA improvement.
 
-      - name: End-To-End Football Player Value Forecasting & Similarity Recommendation System
-        highlights:
-          - Developed dual ML pipelines 1) Time-series regression to predict football players’ market values 2) unsupervised clustering to group players by performance style and role similarity.
-          - Scraped and engineered features to find insights from player performance and transfer data for exploratory data analysis.
-           - Evaluated models using Log1p RMSE,Silhouette to ensure explainability and alignment with business risk trade-offs and further business plan takeaways.
+    - name: End-To-End Football Player Value Forecasting & Similarity Recommendation System
+      highlights:
+        - Developed dual ML pipelines, time-series regression to forecast player market values and unsupervised clustering to group players by performance style and role similarity.
+        - Engineered features from scraped performance and transfer data; evaluated models using Log1p RMSE and Silhouette Score to balance predictive accuracy, interpretability, and business risk.
 
-    competitions:
-      - name: I-squared Hackathon - Motorbike-Rider Annomally Detection and Classfication
-        highlights:
-          - Built a two-stage vision pipeline, YOLOv8 for human–motorbike detection → ViT for fine-grained classification.
-          - Built data-cleaning pipelines using a YOLOv8 detection model for automated correction and data enhancement.
-          - Reached semifinals with +90% accuracy on train images and +70% unseen real-world images.
+competitions:
+  - name: I-squared Hackathon - Motorbike Rider Anomaly Detection & Classification
+    highlights:
+      - Built a two-stage computer vision pipeline (YOLOv8 for motorbike detection → ViT for fine-grained classification).
+      - Designed automated data-cleaning and enhancement pipelines; reached semifinals with >90% accuracy on training data and >70% on unseen real-world images.
 
 
 design:

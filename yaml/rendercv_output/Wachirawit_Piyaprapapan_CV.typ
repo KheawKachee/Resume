@@ -161,17 +161,15 @@
 
   #regular-entry(
   [
-    #strong[On-Demand Delivery Data Platform & Decision Intelligence System (Ongoing)]
+    #strong[On-Demand Delivery Data Platform & Decision Intelligence System]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Designed an end-to-end data science system to predict delivery delays and support operational decisions, covering data ingestion, feature engineering, model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker)
+    - Built an end-to-end data science system for delivery delay prediction, covering ingestion, feature engineering, time-aware model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker).
 
-    - Built time-aware ML pipelines for delay prediction using engineered temporal, spatial, and rider-performance features; applied proper time-series validation to avoid data leakage
-
-    - Developed interpretable classification models and feature analyses to identify key delay drivers (distance, zone mismatch, peak hours, rider workload), translating insights into concrete levers for ETA accuracy, rider assignment, and SLA improvement
+    - Trained interpretable classification models with proper time-series validation; identified key delay drivers and translated insights into operational levers for ETA accuracy and SLA improvement.
 
   ],
 )
@@ -184,30 +182,9 @@
   [
   ],
   main-column-second-row: [
-    - Developed dual ML pipelines 1) Time-series regression to predict football players’ market values 2) unsupervised clustering to group players by performance style and role similarity.
+    - Developed dual ML pipelines, time-series regression to forecast player market values and unsupervised clustering to group players by performance style and role similarity.
 
-    - Scraped and engineered features to find insights from player performance and transfer data for exploratory data analysis.
-
-      - Evaluated models using Log1p RMSE,Silhouette to ensure explainability and alignment with business risk trade-offs and further business plan takeaways.
-
-  ],
-)
-
-== Competitions
-
-  #regular-entry(
-  [
-    #strong[I-squared Hackathon - Motorbike-Rider Annomally Detection and Classfication]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Built a two-stage vision pipeline, YOLOv8 for human–motorbike detection → ViT for fine-grained classification.
-
-    - Built data-cleaning pipelines using a YOLOv8 detection model for automated correction and data enhancement.
-
-    - Reached semifinals with +90\% accuracy on train images and +70\% unseen real-world images.
+    - Engineered features from scraped performance and transfer data; evaluated models using Log1p RMSE and Silhouette Score to balance predictive accuracy, interpretability, and business risk.
 
   ],
 )
