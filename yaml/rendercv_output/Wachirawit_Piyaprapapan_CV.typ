@@ -30,8 +30,8 @@
   typography-font-family-headline: "XCharter",
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
-  typography-font-size-body: 10pt,
-  typography-font-size-name: 25pt,
+  typography-font-size-body: 9pt,
+  typography-font-size-name: 24pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
   typography-font-size-section-titles: 1.2em,
@@ -184,9 +184,7 @@
   main-column-second-row: [
     - Developed dual ML pipelines, time-series regression to forecast player market values and unsupervised clustering to group players by performance style and role similarity.
 
-    - Engineered features from scraped performance and transfer data; evaluated models using Log1p RMSE and Silhouette Score to balance predictive accuracy, interpretability, and business risk.
-
-    - Translated model outputs into decision-support insights, enabling player valuation benchmarking, team-personalized strategy recommendation, and risk-aware transfer shortlisting.
+    - Translated model outputs into insights for player valuation and recruitment, using time-series forecasting (\~40\% relative error) and meaningful clusters to support benchmarking, team-fit analysis, and risk-aware transfer shortlisting.
 
   ],
 )
@@ -199,9 +197,9 @@
   [
   ],
   main-column-second-row: [
-    - Built a data analytics pipeline on match, player, and event-level data to engineer performance metrics and extract tactical insights (Python, Pandas, SQL).
+    - Built a data analytics pipeline on match, player, and event-level data to engineer performance metrics and extract tactical insights (Python, Pandas, SQL)
 
-    - Conducted EDA and statistical analysis to find insights and delivered insights through data-driven visualizations and narratives for non-technical fans.
+    - Conducted EDA and statistical analysis to find insights in various topics and delivered insights through data-driven visualizations and narratives for non-technical fans.
 
   ],
 )

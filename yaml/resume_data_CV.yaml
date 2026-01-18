@@ -59,12 +59,11 @@ cv:
     - name: End-To-End Football Player Value Forecasting & Similarity Recommendation System
       highlights:
         - Developed dual ML pipelines, time-series regression to forecast player market values and unsupervised clustering to group players by performance style and role similarity.
-        - Engineered features from scraped performance and transfer data; evaluated models using Log1p RMSE and Silhouette Score to balance predictive accuracy, interpretability, and business risk.
-        - Translated model outputs into decision-support insights, enabling player valuation benchmarking, team-personalized strategy recommendation, and risk-aware transfer shortlisting.
+        - Translated model outputs into insights for player valuation and recruitment, using time-series forecasting (~40% relative error) and meaningful clusters to support benchmarking, team-fit analysis, and risk-aware transfer shortlisting.
     - name: Football Analytics Content Platform (Ongoing)
       highlights:
-        - Built a data analytics pipeline on match, player, and event-level data to engineer performance metrics and extract tactical insights (Python, Pandas, SQL).
-        - Conducted EDA and statistical analysis to find insights and delivered insights through data-driven visualizations and narratives for non-technical fans.
+        - Built a data analytics pipeline on match, player, and event-level data to engineer performance metrics and extract tactical insights (Python, Pandas, SQL) 
+        - Conducted EDA and statistical analysis to find insights in various topics and delivered insights through data-driven visualizations and narratives for non-technical fans.
 
 
     competitions:
@@ -76,9 +75,16 @@ cv:
 
 design:
   theme: engineeringresumes
+  typography:
+    font_size:
+      body: 9pt # Reduced from 10pt or higher
+      name: 24pt # Reduced from 30pt
+      section_titles: 1.2em
 
 locale:
   language: english
 
 settings:
   current_date: '2025-12-27'
+
+  
