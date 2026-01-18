@@ -186,5 +186,39 @@
 
     - Engineered features from scraped performance and transfer data; evaluated models using Log1p RMSE and Silhouette Score to balance predictive accuracy, interpretability, and business risk.
 
+    - Translated model outputs into decision-support insights, enabling player valuation benchmarking, team-personalized strategy recommendation, and risk-aware transfer shortlisting.
+
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[Football Analytics Content Platform (Ongoing)]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Built a data analytics pipeline on match, player, and event-level data to engineer performance metrics and extract tactical insights (Python, Pandas, SQL).
+
+    - Conducted EDA and statistical analysis to find insights and delivered insights through data-driven visualizations and narratives for non-technical fans.
+
+  ],
+)
+
+== Competitions
+
+  #regular-entry(
+  [
+    #strong[I-squared Hackathon - Motorbike Rider Anomaly Detection & Classification]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Built a two-stage computer vision pipeline (YOLOv8 for motorbike detection → ViT for fine-grained classification).
+
+    - Designed automated data-cleaning and enhancement pipelines; reached semifinals with \>90\% accuracy on training data and \>70\% on unseen real-world images.
+
   ],
 )
