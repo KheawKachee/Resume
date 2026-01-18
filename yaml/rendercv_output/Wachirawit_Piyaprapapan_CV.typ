@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Wachirawit Piyaprapapan",
   footer: context { [#emph[Wachirawit Piyaprapapan -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  top-note: [ #emph[Last updated in Jan 2025] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2025,
-    month: 12,
-    day: 27,
+    month: 1,
+    day: 17,
   ),
 )
 
