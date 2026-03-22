@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Wachirawit Piyaprapapan",
+  title: "Wachirawit Piyaprapapan - CV",
   footer: context { [#emph[Wachirawit Piyaprapapan -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Jan 2025] ],
+  top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
@@ -30,8 +32,8 @@
   typography-font-family-headline: "XCharter",
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
-  typography-font-size-body: 9pt,
-  typography-font-size-name: 24pt,
+  typography-font-size-body: 8pt,
+  typography-font-size-name: 18pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
   typography-font-size-section-titles: 1.2em,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
@@ -76,14 +79,16 @@
   entries-highlights-space-between-items: 0.08cm,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
-    year: 2025,
-    month: 1,
-    day: 17,
+    year: 2026,
+    month: 3,
+    day: 22,
   ),
 )
 
 
 = Wachirawit Piyaprapapan
+
+  #headline([Data & AI Engineer | ML Systems, Data Platforms, Applied AI])
 
 #connections(
   [Bangkok, Thailand],
@@ -110,20 +115,41 @@
 
     - Coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization
 
-    - Capstone: Generative Video-Based Sky Image Forecasting For Thai Sky Images
+    - Capstone: Generative Video-Based Sky Image Forecasting for Thai Sky Images (SkyGPT, VQ-VAE)
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, SQL, Bash
+#strong[Languages:] Python, JavaScript, SQL, Bash
 
-#strong[ML \/ Data:] PyTorch, Pandas, Scikit-learn, Spark, Airflow
+#strong[Software & Frameworks:] PyTorch, FastAPI, Next.js, React, Scikit-learn, PySpark, Pandas, SQLModel, spaCy, OpenCV, Selenium
 
-#strong[Tools:] NumPy, Docker, Git, OpenCV, Grafana, Gradio, FastAPI, Supabase
+#strong[Tools:] Docker, Apache Airflow, dbt, PostgreSQL, Grafana, Git
+
+#strong[Services & Platforms:] GCP (Google Cloud Platform), Vercel, Hugging Face
 
 == Experience
+
+#regular-entry(
+  [
+    #strong[AI Engineer Part Time], Hobbit Technologies -- Bangkok, Thailand
+
+  ],
+  [
+    Feb 2026 – present
+
+  ],
+  main-column-second-row: [
+    - Developed a RAG pipeline using LiteLLM and FastAPI, implementing Pydantic-validated structured outputs that reduced downstream parsing errors.
+
+    - Architected a modular Next.js\/PostgreSQL platform to generate\/evaluate CEFR-aligned content, utilizing NLP for automated grammar correction.
+
+    - Scaled LLM services via REST APIs, improving generation consistency through Zero-shot Templating and Chain-of-Thought .
+
+  ],
+)
 
 #regular-entry(
   [
@@ -135,9 +161,9 @@
 
   ],
   main-column-second-row: [
-    - Built an internal computer vision annotation platform, reducing data labeling cost around 20k Baht and tailored-made for internal YOLO model iteration for automation prototypes (Python, OpenCV, YOLO, Docker)
+    - Engineered an end-to-end Computer Vision data engine using OpenCV and Docker, integrating automated data drift detection to trigger active learning loops. This self-training pipeline reduced labeling costs by \~20k THB\/year
 
-    - Implemented logging and monitoring pipelines, with daily system report and improving system reliability and observability in ML workflows (Python, Grafana, Docker)
+    - Deployed an end-to-end observability stack (Grafana\/Prometheus) to monitor Edge AI inference across on-premise IoT sensors, preventing system failure in the production line.
 
   ],
 )
@@ -152,12 +178,27 @@
 
   ],
   main-column-second-row: [
-    - Analyzed production data and translated insights into PLC control logic to improve operational efficiency \~10\%.
+    - Built a data-driven control logic prototype integrating production data into PLC workflows, improving operational efficiency by \~10\%.
 
   ],
 )
 
 == Projects
+
+  #regular-entry(
+  [
+    #strong[Generative Video-Based Sky Image Forecasting for Thai Sky Images]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Implemented and optimized VQ-VAE architecture for atmospheric forecasting by implementing Charbonnier and Perceptual loss functions, EMA codebook updates, and sub-pixel interpolation decoding.
+
+    - Achieved a peak validation PSNR of 37.32 dB (+16\% over baseline) and compressed channel-sequence representation to ensure stable temporal prediction and reduced computational complexity.
+
+  ],
+)
 
   #regular-entry(
   [
@@ -167,9 +208,9 @@
   [
   ],
   main-column-second-row: [
-    - Built an end-to-end data science system for delivery delay prediction, covering ingestion, feature engineering, time-aware model training, and monitoring (Python, SQL, dbt, Airflow, PostgreSQL, Docker).
+    - Engineered ETL\/ELT workflows in Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into a structured feature store.
 
-    - Trained interpretable classification models with proper time-series validation; identified key delay drivers and translated insights into operational levers for ETA accuracy and SLA improvement.
+    - Added automated schema validation and time-aware model validation to support production-ready ETA and delay prediction.
 
   ],
 )
@@ -182,41 +223,9 @@
   [
   ],
   main-column-second-row: [
-    - Developed dual ML pipelines, time-series regression to forecast player market values and unsupervised clustering to group players by performance style and role similarity.
+    - Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity.
 
-    - Translated model outputs into insights for player valuation and recruitment, using time-series forecasting (\~40\% relative error) and meaningful clusters to support benchmarking, team-fit analysis, and risk-aware transfer shortlisting.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[Football Analytics Content Platform (Ongoing)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Built a data analytics pipeline on match, player, and event-level data to engineer performance metrics and extract tactical insights (Python, Pandas, SQL)
-
-    - Conducted EDA and statistical analysis to find insights in various topics and delivered insights through data-driven visualizations and narratives for non-technical fans.
-
-  ],
-)
-
-== Competitions
-
-  #regular-entry(
-  [
-    #strong[I-squared Hackathon - Motorbike Rider Anomaly Detection & Classification]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Built a two-stage computer vision pipeline (YOLOv8 for motorbike detection → ViT for fine-grained classification).
-
-    - Designed automated data-cleaning and enhancement pipelines; reached semifinals with \>90\% accuracy on training data and \>70\% on unseen real-world images.
+    - Turned model outputs into recruitment and benchmarking insights using forecasting error analysis and meaningful cluster structure.
 
   ],
 )

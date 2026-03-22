@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Wachirawit Piyaprapapan
+  headline: Data & AI Engineer | ML Systems, Data Platforms, Applied AI
+  location: Bangkok, Thailand
+  email: wachirawit.p.work@student.chula.ac.th
+  phone: +66 98 828 2779
+  social_networks:
+    - network: LinkedIn
+      username: wachirawit-piyaprapapan
+    - network: GitHub
+      username: KheawKachee
+  sections:
+    Education:
+      - institution: Chulalongkorn University
+        area: Electrical Engineering
+        degree: B.Eng.
+        start_date: 2022-08
+        end_date: 2026-05
+        location: Bangkok, Thailand
+        highlights:
+          - "GPAX: 3.44 (Second-class honours)"
+          - "Coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization"
+          - "Capstone: Generative Video-Based Sky Image Forecasting for Thai Sky Images (SkyGPT, VQ-VAE)"
+    Skills:
+      - label: Languages
+        details: Python, JavaScript, SQL, Bash
+      - label: Software & Frameworks
+        details: PyTorch, FastAPI, Next.js, React, Scikit-learn, PySpark, Pandas, SQLModel, spaCy, OpenCV, Selenium
+      - label: Tools
+        details: Docker, Apache Airflow, dbt, PostgreSQL, Grafana, Git
+      - label: Services & Platforms
+        details: GCP (Google Cloud Platform), Vercel, Hugging Face
+    Experience:
+      - company: Hobbit Technologies
+        position: AI Engineer Part Time
+        start_date: 2026-02
+        end_date: present
+        location: Bangkok, Thailand
+        highlights:
+          - "Developed a RAG pipeline using LiteLLM and FastAPI, implementing Pydantic-validated structured outputs that reduced downstream parsing errors."
+          - "Architected a modular Next.js/PostgreSQL platform to generate/evaluate CEFR-aligned content, utilizing NLP for automated grammar correction."
+          - "Scaled LLM services via REST APIs, improving generation consistency through Zero-shot Templating and Chain-of-Thought ."
+      - company: Hobbit Technologies
+        position: AI Engineer Intern
+        start_date: 2025-06
+        end_date: 2025-08
+        location: Bangkok, Thailand
+        highlights:
+          - "Engineered an end-to-end Computer Vision data engine using OpenCV and Docker, integrating automated data drift detection to trigger active learning loops. This self-training pipeline reduced labeling costs by ~20k THB/year"
+          - "Deployed an end-to-end observability stack (Grafana/Prometheus) to monitor Edge AI inference across on-premise IoT sensors, preventing system failure in the production line."
+      - company: AGC Flat Glass
+        position: Electrical Engineering Intern
+        start_date: 2024-06
+        end_date: 2024-08
+        location: Bangkok, Thailand
+        highlights:
+          - "Built a data-driven control logic prototype integrating production data into PLC workflows, improving operational efficiency by ~10%."
+    Projects:
+      - name: Generative Video-Based Sky Image Forecasting for Thai Sky Images
+        highlights:
+          - "Implemented and optimized VQ-VAE architecture for atmospheric forecasting by implementing Charbonnier and Perceptual loss functions, EMA codebook updates, and sub-pixel interpolation decoding."
+          - "Achieved a peak validation PSNR of 37.32 dB (+16% over baseline) and compressed channel-sequence representation to ensure stable temporal prediction and reduced computational complexity."
+      - name: On-Demand Delivery Data Platform & Decision Intelligence System
+        highlights:
+          - "Engineered ETL/ELT workflows in Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into a structured feature store."
+          - "Added automated schema validation and time-aware model validation to support production-ready ETA and delay prediction."
+      - name: End-To-End Football Player Value Forecasting & Similarity Recommendation System
+        highlights:
+          - "Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity."
+          - "Turned model outputs into recruitment and benchmarking insights using forecasting error analysis and meaningful cluster structure."
+
+
+design:
+  theme: engineeringresumes
+  typography:
+    font_size:
+      body: 8pt
+      name: 18pt
+      section_titles: 1.2em
+locale:
+  language: english
+settings:
+  current_date: '2026-03-22'

@@ -1,3 +1,1 @@
-rendercv render $1 -nomd -nohtml -nopng --pdf-path ../output/$2.pdf
-
-#yaml file & outputfilename
+uv run --with 'rendercv[full]' rendercv render yaml/main.yaml -nomd -nohtml -nopng --pdf-path ../output/main_CV.pdf
