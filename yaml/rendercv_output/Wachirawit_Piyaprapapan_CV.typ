@@ -24,7 +24,7 @@
   colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.5em,
+  typography-line-spacing: 0.55em,
   typography-alignment: "left",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "XCharter",
@@ -33,10 +33,10 @@
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
   typography-font-size-body: 8.5pt,
-  typography-font-size-name: 14pt,
-  typography-font-size-headline: 7pt,
-  typography-font-size-connections: 7pt,
-  typography-font-size-section-titles: 1em,
+  typography-font-size-name: 18pt,
+  typography-font-size-headline: 9pt,
+  typography-font-size-connections: 8pt,
+  typography-font-size-section-titles: 1.2em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -63,7 +63,7 @@
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.12cm,
-  sections-space-between-regular-entries: 0.3cm,
+  sections-space-between-regular-entries: 0.35cm,
   entries-date-and-location-width: 3.6cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.12cm,
@@ -88,16 +88,20 @@
 
 = Wachirawit Piyaprapapan
 
-  #headline([AI Engineer | ML Systems | RAG | Edge AI | Data Platforms])
+  #headline([Data & AI Engineer | ML Systems | Data Platforms | Applied AI])
 
 #connections(
   [Bangkok, Thailand],
-  [#link("mailto:wachirawit.p.work@gmail.com", icon: false, if-underline: false, if-color: false)[wachirawit.p.work\@gmail.com]],
+  [#link("mailto:wachirawit.p.work@student.chula.ac.th", icon: false, if-underline: false, if-color: false)[wachirawit.p.work\@student.chula.ac.th]],
   [#link("tel:+66-98-828-2779", icon: false, if-underline: false, if-color: false)[098 828 2779]],
   [#link("https://linkedin.com/in/wachirawit-piyaprapapan", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/wachirawit-piyaprapapan]],
   [#link("https://github.com/KheawKachee", icon: false, if-underline: false, if-color: false)[github.com\/KheawKachee]],
 )
 
+
+== Summary
+
+AI engineering student and part-time AI engineer focused on production-oriented ML, RAG systems, data platforms, and edge computer vision. Experienced in building FastAPI\/Next.js applications, PostgreSQL-backed pipelines, forecasting models, and observability for AI systems.
 
 == Education
 
@@ -124,11 +128,11 @@
 
 #strong[Languages:] Python, SQL, JavaScript, Bash
 
-#strong[AI \/ ML Systems:] PyTorch, OpenCV, Hugging Face, spaCy, RAG, LiteLLM, Pydantic, time-series forecasting, computer vision
+#strong[ML \/ AI:] PyTorch, Scikit-learn, LightGBM, spaCy, OpenCV, Hugging Face, RAG, time-series forecasting, computer vision
 
-#strong[Backend \/ Data Systems:] FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt
+#strong[Backend \/ Data:] FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt
 
-#strong[MLOps \/ Deployment:] Docker, Git, Grafana, Prometheus, GCP, Vercel, Selenium
+#strong[MLOps \/ Tools:] Docker, Git, Grafana, Prometheus, GCP, Vercel, Selenium
 
 == Experience
 
@@ -142,11 +146,11 @@
 
   ],
   main-column-second-row: [
-    - Develop and maintain production-oriented RAG services with LiteLLM, FastAPI, and Pydantic-validated structured outputs to reduce downstream parsing failures.
+    - Develop and maintain RAG services with LiteLLM and FastAPI, using Pydantic-validated structured outputs to reduce downstream parsing failures.
 
-    - Architect a modular Next.js\/PostgreSQL platform for CEFR-aligned content generation, automated grammar correction, and evaluation workflows.
+    - Architect a modular Next.js\/PostgreSQL platform for CEFR-aligned content generation and evaluation, including automated grammar-correction workflows.
 
-    - Improve LLM reliability through prompt templates, schema validation, REST API service boundaries, and reusable backend components.
+    - Improve LLM output consistency through prompt templates, schema validation, and REST API service boundaries.
 
   ],
 )
@@ -166,6 +170,23 @@
     - Deployed Grafana\/Prometheus monitoring for Edge AI inference on on-premise IoT sensors, improving visibility into production-line failures.
 
     - Built data-cleaning and dataset-versioning workflows for edge computer-vision experiments.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Electrical Engineering Intern], AGC Flat Glass -- Bangkok, Thailand
+
+  ],
+  [
+    June 2024 – Aug 2024
+
+  ],
+  main-column-second-row: [
+    - Built a data-driven control-logic prototype that integrated production data into PLC workflows.
+
+    - Analyzed machine and production signals to support operational-efficiency improvement of approximately 10\%.
 
   ],
 )
@@ -202,6 +223,36 @@
   ],
 )
 
+  #regular-entry(
+  [
+    #strong[On-Demand Delivery Data Platform & Decision Intelligence System]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Built ETL\/ELT workflows with Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into analytics-ready tables and feature-store structures.
+
+    - Added schema validation and time-aware model validation to support ETA and delay-prediction experiments.
+
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[Football Player Value Forecasting & Similarity Recommendation System]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity.
+
+    - Translated forecasting errors and cluster structures into recruitment and benchmarking insights.
+
+  ],
+)
+
 == Competitions
 
 #regular-entry(
@@ -223,6 +274,23 @@
 
 #regular-entry(
   [
+    #strong[Thailand Super AI Engineer Season 6 — Coffee Chain Time-Series Hackathon]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Led research and feature engineering for daily coffee-sales forecasting; designed seasonal and event-driven demand features.
+
+    - Contributed technical evidence for the pitching track by connecting forecasting features to inventory and order-optimization workflows.
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems]
 
   ],
@@ -233,24 +301,7 @@
   main-column-second-row: [
     - Developed a computer-vision data pipeline for traffic monitoring and anomaly detection.
 
-    - Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap external public datasets.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Thailand Super AI Engineer Season 6 — Coffee Chain Time-Series Hackathon]
-
-  ],
-  [
-    2026
-
-  ],
-  main-column-second-row: [
-    - Led feature engineering for daily coffee-sales forecasting and connected model outputs to inventory and order-optimization workflows.
-
-    - Designed leakage-safe validation and event-driven demand features for production-like forecasting constraints.
+    - Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap custom traffic datasets.
 
   ],
 )
