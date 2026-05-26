@@ -1,1 +1,1 @@
-uv run --with 'rendercv[full]' rendercv render yaml/main.yaml -nomd -nohtml -nopng --pdf-path ../output/main_CV.pdf
+uv run --with 'rendercv[full]' rendercv render yaml/cv_ai_engineer.yaml -nomd -nohtml -nopng --pdf-path ../output/cv_ai_engineer.pdf

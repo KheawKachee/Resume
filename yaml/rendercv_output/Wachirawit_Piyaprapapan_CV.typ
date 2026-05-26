@@ -6,14 +6,14 @@
   name: "Wachirawit Piyaprapapan",
   title: "Wachirawit Piyaprapapan - CV",
   footer: context { [#emph[Wachirawit Piyaprapapan -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
-  page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
+  page-size: "a4",
+  page-top-margin: 1.2cm,
+  page-bottom-margin: 1.2cm,
+  page-left-margin: 1.2cm,
+  page-right-margin: 1.2cm,
   page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
@@ -24,19 +24,19 @@
   colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.6em,
-  typography-alignment: "justified",
+  typography-line-spacing: 0.5em,
+  typography-alignment: "left",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "XCharter",
   typography-font-family-name: "XCharter",
   typography-font-family-headline: "XCharter",
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
-  typography-font-size-body: 8pt,
-  typography-font-size-name: 18pt,
-  typography-font-size-headline: 10pt,
-  typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.2em,
+  typography-font-size-body: 8.5pt,
+  typography-font-size-name: 14pt,
+  typography-font-size-headline: 7pt,
+  typography-font-size-connections: 7pt,
+  typography-font-size-section-titles: 1em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -62,11 +62,11 @@
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 0.42cm,
-  entries-date-and-location-width: 4.15cm,
+  sections-space-between-text-based-entries: 0.12cm,
+  sections-space-between-regular-entries: 0.3cm,
+  entries-date-and-location-width: 3.6cm,
   entries-side-space: 0cm,
-  entries-space-between-columns: 0.1cm,
+  entries-space-between-columns: 0.12cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
   entries-degree-width: 1cm,
@@ -74,25 +74,25 @@
   entries-summary-space-above: 0.08cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.08cm,
-  entries-highlights-space-between-items: 0.08cm,
+  entries-highlights-space-left: 0.35cm,
+  entries-highlights-space-above: 0.04cm,
+  entries-highlights-space-between-items: 0.03cm,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 22,
+    month: 5,
+    day: 26,
   ),
 )
 
 
 = Wachirawit Piyaprapapan
 
-  #headline([Data & AI Engineer | ML Systems, Data Platforms, Applied AI])
+  #headline([AI Engineer | ML Systems | RAG | Edge AI | Data Platforms])
 
 #connections(
   [Bangkok, Thailand],
-  [#link("mailto:wachirawit.p.work@student.chula.ac.th", icon: false, if-underline: false, if-color: false)[wachirawit.p.work\@student.chula.ac.th]],
+  [#link("mailto:wachirawit.p.work@gmail.com", icon: false, if-underline: false, if-color: false)[wachirawit.p.work\@gmail.com]],
   [#link("tel:+66-98-828-2779", icon: false, if-underline: false, if-color: false)[098 828 2779]],
   [#link("https://linkedin.com/in/wachirawit-piyaprapapan", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/wachirawit-piyaprapapan]],
   [#link("https://github.com/KheawKachee", icon: false, if-underline: false, if-color: false)[github.com\/KheawKachee]],
@@ -111,30 +111,30 @@
 
   ],
   main-column-second-row: [
-    - GPAX: 3.44 (Second-class honours)
+    - GPAX: 3.44 \/ 4.00; Second-class honours.
 
-    - Coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization
+    - Relevant coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization.
 
-    - Capstone: Generative Video-Based Sky Image Forecasting for Thai Sky Images (SkyGPT, VQ-VAE)
+    - Capstone: Generative Video-Based Sky Image Forecasting for Thai sky images using VQ-VAE-based video prediction.
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, JavaScript, SQL, Bash
+#strong[Languages:] Python, SQL, JavaScript, Bash
 
-#strong[Software & Frameworks:] PyTorch, FastAPI, Next.js, React, Scikit-learn, PySpark, Pandas, SQLModel, spaCy, OpenCV, Selenium
+#strong[AI \/ ML Systems:] PyTorch, OpenCV, Hugging Face, spaCy, RAG, LiteLLM, Pydantic, time-series forecasting, computer vision
 
-#strong[Tools:] Docker, Apache Airflow, dbt, PostgreSQL, Grafana, Git
+#strong[Backend \/ Data Systems:] FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt
 
-#strong[Services & Platforms:] GCP (Google Cloud Platform), Vercel, Hugging Face
+#strong[MLOps \/ Deployment:] Docker, Git, Grafana, Prometheus, GCP, Vercel, Selenium
 
 == Experience
 
 #regular-entry(
   [
-    #strong[AI Engineer Part Time], Hobbit Technologies -- Bangkok, Thailand
+    #strong[AI Engineer, Part-time], Hobbit Technologies -- Bangkok, Thailand
 
   ],
   [
@@ -142,11 +142,11 @@
 
   ],
   main-column-second-row: [
-    - Developed a RAG pipeline using LiteLLM and FastAPI, implementing Pydantic-validated structured outputs that reduced downstream parsing errors.
+    - Develop and maintain production-oriented RAG services with LiteLLM, FastAPI, and Pydantic-validated structured outputs to reduce downstream parsing failures.
 
-    - Architected a modular Next.js\/PostgreSQL platform to generate\/evaluate CEFR-aligned content, utilizing NLP for automated grammar correction.
+    - Architect a modular Next.js\/PostgreSQL platform for CEFR-aligned content generation, automated grammar correction, and evaluation workflows.
 
-    - Scaled LLM services via REST APIs, improving generation consistency through Zero-shot Templating and Chain-of-Thought .
+    - Improve LLM reliability through prompt templates, schema validation, REST API service boundaries, and reusable backend components.
 
   ],
 )
@@ -161,24 +161,11 @@
 
   ],
   main-column-second-row: [
-    - Engineered an end-to-end Computer Vision data engine using OpenCV and Docker, integrating automated data drift detection to trigger active learning loops. This self-training pipeline reduced labeling costs by \~20k THB\/year
+    - Engineered a Dockerized computer-vision data engine with OpenCV, automated drift checks, and active-learning triggers, reducing labeling cost by approximately 20k THB\/year.
 
-    - Deployed an end-to-end observability stack (Grafana\/Prometheus) to monitor Edge AI inference across on-premise IoT sensors, preventing system failure in the production line.
+    - Deployed Grafana\/Prometheus monitoring for Edge AI inference on on-premise IoT sensors, improving visibility into production-line failures.
 
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Electrical Engineering Intern], AGC Flat Glass -- Bangkok, Thailand
-
-  ],
-  [
-    June 2024 – Aug 2024
-
-  ],
-  main-column-second-row: [
-    - Built a data-driven control logic prototype integrating production data into PLC workflows, improving operational efficiency by \~10\%.
+    - Built data-cleaning and dataset-versioning workflows for edge computer-vision experiments.
 
   ],
 )
@@ -193,39 +180,92 @@
   [
   ],
   main-column-second-row: [
-    - Implemented and optimized VQ-VAE architecture for atmospheric forecasting by implementing Charbonnier and Perceptual loss functions, EMA codebook updates, and sub-pixel interpolation decoding.
+    - Implemented and optimized a VQ-VAE-based forecasting model with Charbonnier loss, perceptual loss, EMA codebook updates, and sub-pixel interpolation decoding.
 
-    - Achieved a peak validation PSNR of 37.32 dB (+16\% over baseline) and compressed channel-sequence representation to ensure stable temporal prediction and reduced computational complexity.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[On-Demand Delivery Data Platform & Decision Intelligence System]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Engineered ETL\/ELT workflows in Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into a structured feature store.
-
-    - Added automated schema validation and time-aware model validation to support production-ready ETA and delay prediction.
+    - Achieved 37.32 dB peak validation PSNR, a 16\% improvement over baseline, while compressing channel-sequence representations for more stable temporal prediction.
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[End-To-End Football Player Value Forecasting & Similarity Recommendation System]
+    #strong[Coffee Chain Demand Forecasting System]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity.
+    - Engineered horizon-safe lag, rolling, event-proximity, calendar, and store-category demand features for daily product-level sales forecasting across representative coffee stores.
 
-    - Turned model outputs into recruitment and benchmarking insights using forecasting error analysis and meaningful cluster structure.
+    - Reduced internal walk-forward CV MAE by 12.2\% over the leakage-safe baseline and identified local-event and store-category behavior as the strongest business signals.
+
+  ],
+)
+
+== Competitions
+
+#regular-entry(
+  [
+    #strong[Microsoft AI Engineering Skills and Hackathon for Employment 2026]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Reached finalist team stage among 2,000+ participants.
+
+    - Built a dashboard-driven emergency-case intake and evaluation pipeline using Azure Foundry and Azure OpenAI.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Developed a computer-vision data pipeline for traffic monitoring and anomaly detection.
+
+    - Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap external public datasets.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Thailand Super AI Engineer Season 6 — Coffee Chain Time-Series Hackathon]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Led feature engineering for daily coffee-sales forecasting and connected model outputs to inventory and order-optimization workflows.
+
+    - Designed leakage-safe validation and event-driven demand features for production-like forecasting constraints.
+
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Built a two-stage computer-vision pipeline using YOLOv8 for detection and ViT for classification.
+
+    - Designed automated data-cleaning and image-enhancement workflows; reached semifinals with over 90\% training accuracy and over 70\% accuracy on unseen real-world images.
 
   ],
 )
