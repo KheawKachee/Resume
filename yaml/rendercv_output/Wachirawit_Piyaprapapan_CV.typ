@@ -6,7 +6,7 @@
   name: "Wachirawit Piyaprapapan",
   title: "Wachirawit Piyaprapapan - CV",
   footer: context { [#emph[Wachirawit Piyaprapapan -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in May 2026] ],
+  top-note: [ #emph[Last updated in July 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,15 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 26,
+    month: 7,
+    day: 9,
   ),
 )
 
 
 = Wachirawit Piyaprapapan
 
-  #headline([Data & AI Engineer | ML Systems | Data Platforms | Applied AI])
+  #headline([Data Scientist | Applied AI Engineer])
 
 #connections(
   [Bangkok, Thailand],
@@ -98,10 +98,6 @@
   [#link("https://github.com/KheawKachee", icon: false, if-underline: false, if-color: false)[github.com\/KheawKachee]],
 )
 
-
-== Summary
-
-AI engineering student and part-time AI engineer focused on production-oriented ML, RAG systems, data platforms, and edge computer vision. Experienced in building FastAPI\/Next.js applications, PostgreSQL-backed pipelines, forecasting models, and observability for AI systems.
 
 == Education
 
@@ -115,7 +111,7 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - GPAX: 3.44 \/ 4.00; Second-class honours.
+    - GPAX: 3.48 \/ 4.00; Second-class honours.
 
     - Relevant coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization.
 
@@ -128,13 +124,32 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
 #strong[Languages:] Python, SQL, JavaScript, Bash
 
-#strong[ML \/ AI:] PyTorch, Scikit-learn, LightGBM, spaCy, OpenCV, Hugging Face, RAG, time-series forecasting, computer vision
+#strong[ML \/ AI:] PyTorch, AutoGluon, MLForecast, Hugging Face, Scikit-learn, OpenCV, spaCy
 
-#strong[Backend \/ Data:] FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt
+#strong[Backend \/ Data:] FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt, Seaborn
 
 #strong[MLOps \/ Tools:] Docker, Git, Grafana, Prometheus, GCP, Vercel, Selenium
 
 == Experience
+
+#regular-entry(
+  [
+    #strong[Data Scientist Intern], AXONS -- Bangkok, Thailand
+
+  ],
+  [
+    June 2026 – present
+
+  ],
+  main-column-second-row: [
+    - Developing a transport demand forecasting pipelines for logistics planning from user requirements.
+
+    - Performed data scoping, feature engineering, and EDA on datasets to identify reliable forecasting signals and business insights.
+
+    - Evaluating statistical baselines, challengers models, and domain-informed covariates to select models suitable for demand forecasting pilots.
+
+  ],
+)
 
 #regular-entry(
   [
@@ -193,12 +208,14 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
 == Projects
 
-  #regular-entry(
+#regular-entry(
   [
     #strong[Generative Video-Based Sky Image Forecasting for Thai Sky Images]
 
   ],
   [
+    Aug 2025 – May 2026
+
   ],
   main-column-second-row: [
     - Implemented and optimized a VQ-VAE-based forecasting model with Charbonnier loss, perceptual loss, EMA codebook updates, and sub-pixel interpolation decoding.
@@ -208,12 +225,14 @@ AI engineering student and part-time AI engineer focused on production-oriented 
   ],
 )
 
-  #regular-entry(
+#regular-entry(
   [
     #strong[Coffee Chain Demand Forecasting System]
 
   ],
   [
+    June 2025 – June 2025
+
   ],
   main-column-second-row: [
     - Engineered horizon-safe lag, rolling, event-proximity, calendar, and store-category demand features for daily product-level sales forecasting across representative coffee stores.
@@ -223,12 +242,14 @@ AI engineering student and part-time AI engineer focused on production-oriented 
   ],
 )
 
-  #regular-entry(
+#regular-entry(
   [
     #strong[On-Demand Delivery Data Platform & Decision Intelligence System]
 
   ],
   [
+    Dec 2024 – Feb 2025
+
   ],
   main-column-second-row: [
     - Built ETL\/ELT workflows with Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into analytics-ready tables and feature-store structures.
@@ -238,12 +259,14 @@ AI engineering student and part-time AI engineer focused on production-oriented 
   ],
 )
 
-  #regular-entry(
+#regular-entry(
   [
     #strong[Football Player Value Forecasting & Similarity Recommendation System]
 
   ],
   [
+    Oct 2025 – Mar 2026
+
   ],
   main-column-second-row: [
     - Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity.
@@ -257,7 +280,7 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
 #regular-entry(
   [
-    #strong[Microsoft AI Engineering Skills and Hackathon for Employment 2026]
+    #strong[Microsoft AI Engineering Skills and Hackathon for Employment 2026 (Finalist)]
 
   ],
   [
@@ -265,9 +288,43 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Reached finalist team stage among 2,000+ participants.
+    - Secured a finalist team spot out of a competitive pool of 2,000+ regional participants.
 
-    - Built a dashboard-driven emergency-case intake and evaluation pipeline using Azure Foundry and Azure OpenAI.
+    - Architected a dashboard-driven emergency intake and case-evaluation pipeline leveraging Azure AI Foundry and Azure OpenAI models.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems (Winner)]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Developed a computer-vision data pipeline for traffic monitoring and anomaly detection.
+
+    - Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap custom traffic datasets.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Thailand Super AI Engineer Season 6 — Enterprise Data Agentic Showdown (First runner-up)]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Architected an evaluation and testing harness for agentic AI tools optimized for OCR data extraction.
+
+    - Led the computer vision team in integrating robust tool pipelines and guardrails for reliable document processing.
 
   ],
 )
@@ -291,7 +348,7 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
 #regular-entry(
   [
-    #strong[Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems]
+    #strong[Thailand Super AI Engineer Season 6 — Computer Vision Hackathon]
 
   ],
   [
@@ -299,24 +356,26 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Developed a computer-vision data pipeline for traffic monitoring and anomaly detection.
+    - Researched and implemented a multi-head ConvNeXt architecture tailored for complex re-identification tasks.
 
-    - Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap custom traffic datasets.
+    - Engineered an automated data-labeling and preprocessing pipeline, reducing manual curation effort for two-stage prediction models.
 
   ],
 )
 
-  #regular-entry(
+#regular-entry(
   [
-    #strong[I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification]
+    #strong[I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification (Semi finalist)]
 
   ],
   [
+    2026
+
   ],
   main-column-second-row: [
-    - Built a two-stage computer-vision pipeline using YOLOv8 for detection and ViT for classification.
+    - Developed a real-time computer vision pipeline to detect and classify dangerous rider behavior and anomalies.
 
-    - Designed automated data-cleaning and image-enhancement workflows; reached semifinals with over 90\% training accuracy and over 70\% accuracy on unseen real-world images.
+    - Optimized model inference latency and accuracy for edge deployment scenarios.
 
   ],
 )

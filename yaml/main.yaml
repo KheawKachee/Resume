@@ -2,7 +2,7 @@
 
 cv:
   name: Wachirawit Piyaprapapan
-  headline: Data & AI Engineer | ML Systems | Data Platforms | Applied AI
+  headline: Data Scientist | Applied AI Engineer
   location: Bangkok, Thailand
   email: wachirawit.p.work@student.chula.ac.th
   phone: "+66 98 828 2779"
@@ -13,9 +13,6 @@ cv:
       username: KheawKachee
 
   sections:
-    Summary:
-      - AI engineering student and part-time AI engineer focused on production-oriented ML, RAG systems, data platforms, and edge computer vision. Experienced in building FastAPI/Next.js applications, PostgreSQL-backed pipelines, forecasting models, and observability for AI systems.
-
     Education:
       - institution: Chulalongkorn University
         area: Electrical Engineering
@@ -24,7 +21,7 @@ cv:
         end_date: 2026-05
         location: Bangkok, Thailand
         highlights:
-          - "GPAX: 3.44 / 4.00; Second-class honours."
+          - "GPAX: 3.48 / 4.00; Second-class honours."
           - "Relevant coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization."
           - "Capstone: Generative Video-Based Sky Image Forecasting for Thai sky images using VQ-VAE-based video prediction."
 
@@ -32,13 +29,22 @@ cv:
       - label: Languages
         details: Python, SQL, JavaScript, Bash
       - label: ML / AI
-        details: PyTorch, Scikit-learn, LightGBM, spaCy, OpenCV, Hugging Face, RAG, time-series forecasting, computer vision
+        details: PyTorch, AutoGluon, MLForecast, Hugging Face, Scikit-learn, OpenCV, spaCy
       - label: Backend / Data
-        details: FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt
+        details: FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt, Seaborn
       - label: MLOps / Tools
         details: Docker, Git, Grafana, Prometheus, GCP, Vercel, Selenium
 
     Experience:
+      - company: AXONS
+        position: Data Scientist Intern
+        start_date: 2026-06
+        end_date: present
+        location: Bangkok, Thailand
+        highlights:
+          - "Developing a transport demand forecasting pipelines for logistics planning from user requirements."
+          - "Performed data scoping, feature engineering, and EDA on datasets to identify reliable forecasting signals and business insights."
+          - "Evaluating statistical baselines, challengers models, and domain-informed covariates to select models suitable for demand forecasting pilots."
       - company: Hobbit Technologies
         position: AI Engineer, Part-time
         start_date: 2026-02
@@ -70,49 +76,65 @@ cv:
 
     Projects:
       - name: Generative Video-Based Sky Image Forecasting for Thai Sky Images
+        start_date: 2025-08
+        end_date: 2026-05
         highlights:
           - "Implemented and optimized a VQ-VAE-based forecasting model with Charbonnier loss, perceptual loss, EMA codebook updates, and sub-pixel interpolation decoding."
           - "Achieved 37.32 dB peak validation PSNR, a 16% improvement over baseline, while compressing channel-sequence representations for more stable temporal prediction."
 
       - name: Coffee Chain Demand Forecasting System
+        start_date: 2025-06
+        end_date: 2025-06
         highlights:
           - "Engineered horizon-safe lag, rolling, event-proximity, calendar, and store-category demand features for daily product-level sales forecasting across representative coffee stores."
           - "Reduced internal walk-forward CV MAE by 12.2% over the leakage-safe baseline and identified local-event and store-category behavior as the strongest business signals."
 
       - name: On-Demand Delivery Data Platform & Decision Intelligence System
+        start_date: 2024-12
+        end_date: 2025-02
         highlights:
           - "Built ETL/ELT workflows with Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into analytics-ready tables and feature-store structures."
           - "Added schema validation and time-aware model validation to support ETA and delay-prediction experiments."
 
       - name: Football Player Value Forecasting & Similarity Recommendation System
+        start_date: 2025-10
+        end_date: 2026-03
         highlights:
           - "Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity."
           - "Translated forecasting errors and cluster structures into recruitment and benchmarking insights."
 
     Competitions:
-      - name: Microsoft AI Engineering Skills and Hackathon for Employment 2026
+      - name: Microsoft AI Engineering Skills and Hackathon for Employment 2026 (Finalist)
+        date: 2026 
+        highlights:
+          - "Secured a finalist team spot out of a competitive pool of 2,000+ regional participants."
+          - "Architected a dashboard-driven emergency intake and case-evaluation pipeline leveraging Azure AI Foundry and Azure OpenAI models."
+      - name: Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems (Winner)
         date: 2026
         highlights:
-          - "Reached finalist team stage among 2,000+ participants."
-          - "Built a dashboard-driven emergency-case intake and evaluation pipeline using Azure Foundry and Azure OpenAI."
-
+          - "Developed a computer-vision data pipeline for traffic monitoring and anomaly detection."
+          - "Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap custom traffic datasets."
+      - name: Thailand Super AI Engineer Season 6 — Enterprise Data Agentic Showdown (First runner-up)
+        date: 2026
+        highlights:
+          - "Architected an evaluation and testing harness for agentic AI tools optimized for OCR data extraction."
+          - "Led the computer vision team in integrating robust tool pipelines and guardrails for reliable document processing."
       - name: Thailand Super AI Engineer Season 6 — Coffee Chain Time-Series Hackathon
         date: 2026
         highlights:
           - "Led research and feature engineering for daily coffee-sales forecasting; designed seasonal and event-driven demand features."
           - "Contributed technical evidence for the pitching track by connecting forecasting features to inventory and order-optimization workflows."
 
-      - name: Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems
+      - name: Thailand Super AI Engineer Season 6 — Computer Vision Hackathon
         date: 2026
         highlights:
-          - "Developed a computer-vision data pipeline for traffic monitoring and anomaly detection."
-          - "Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap custom traffic datasets."
-
-      - name: I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification
+          - "Researched and implemented a multi-head ConvNeXt architecture tailored for complex re-identification tasks."
+          - "Engineered an automated data-labeling and preprocessing pipeline, reducing manual curation effort for two-stage prediction models."
+      - name: I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification (Semi finalist)
+        date: 2026
         highlights:
-          - "Built a two-stage computer-vision pipeline using YOLOv8 for detection and ViT for classification."
-          - "Designed automated data-cleaning and image-enhancement workflows; reached semifinals with over 90% training accuracy and over 70% accuracy on unseen real-world images."
-
+          - "Developed a real-time computer vision pipeline to detect and classify dangerous rider behavior and anomalies."
+          - "Optimized model inference latency and accuracy for edge deployment scenarios."
 design:
   theme: engineeringresumes
   page:
@@ -147,4 +169,4 @@ locale:
   language: english
 
 settings:
-  current_date: "2026-05-26"
+  current_date: '2026-07-09'

@@ -1,0 +1,1 @@
+/home/kheaw/projects/rag_obsidian_novel/README.md
