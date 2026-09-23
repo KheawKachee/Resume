@@ -6,7 +6,7 @@
   name: "Wachirawit Piyaprapapan",
   title: "Wachirawit Piyaprapapan - CV",
   footer: context { [#emph[Wachirawit Piyaprapapan -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in May 2026] ],
+  top-note: [ #emph[Last updated in Aug 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,15 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 26,
+    month: 8,
+    day: 8,
   ),
 )
 
 
 = Wachirawit Piyaprapapan
 
-  #headline([Data & AI Engineer | ML Systems | Data Platforms | Applied AI])
+  #headline([Data Scientist | Applied AI Engineer])
 
 #connections(
   [Bangkok, Thailand],
@@ -98,10 +98,6 @@
   [#link("https://github.com/KheawKachee", icon: false, if-underline: false, if-color: false)[github.com\/KheawKachee]],
 )
 
-
-== Summary
-
-AI engineering student and part-time AI engineer focused on production-oriented ML, RAG systems, data platforms, and edge computer vision. Experienced in building FastAPI\/Next.js applications, PostgreSQL-backed pipelines, forecasting models, and observability for AI systems.
 
 == Education
 
@@ -115,26 +111,45 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - GPAX: 3.44 \/ 4.00; Second-class honours.
+    - GPAX: 3.48 \/ 4.00; Second-class honours.
 
     - Relevant coursework: Data Science, Data Engineering, Estimation, Statistical Learning, Optimization.
 
-    - Capstone: Generative Video-Based Sky Image Forecasting for Thai sky images using VQ-VAE-based video prediction.
+    - Capstone: Led development of a generative video encoder-decoder forecasting model for Thai sky imagery, improving validation PSNR from 31.34 dB to 37.32 dB while prioritizing perceptual image quality.
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, SQL, JavaScript, Bash
+#strong[Programming:] Python, SQL, Bash
 
-#strong[ML \/ AI:] PyTorch, Scikit-learn, LightGBM, spaCy, OpenCV, Hugging Face, RAG, time-series forecasting, computer vision
+#strong[Machine Learning:] Scikit-learn, MLForecast, AutoGluon, PyTorch, Hugging Face, Ollama, vLLM
 
-#strong[Backend \/ Data:] FastAPI, Next.js, React, PostgreSQL, SQLModel, Pandas, PySpark, Airflow, dbt
+#strong[Data & Visualization:] Pandas, PySpark, PostgreSQL, Matplotlib, Seaborn, OpenCV
 
-#strong[MLOps \/ Tools:] Docker, Git, Grafana, Prometheus, GCP, Vercel, Selenium
+#strong[Deployment & MLOps:] FastAPI, Docker, Git, GCP, Grafana, Prometheus, Airflow, dbt
 
 == Experience
+
+#regular-entry(
+  [
+    #strong[Data Scientist Intern], AXONS -- Bangkok, Thailand
+
+  ],
+  [
+    June 2026 – Aug 2026
+
+  ],
+  main-column-second-row: [
+    - Initiated an end-to-end demand forecasting pipeline across \>2M series for logistics planning, replacing proxy-based estimates with direct shipment-weight forecasts and reducing forecast error by \>50\% and bias by \>80\% versus the existing baseline.
+
+    - Redesigned the evaluation set to reflect real-world demand variation and engineered special-day features, reducing forecast error by an additional 2.1\% versus the best existing model.
+
+    - Reduced false zero-demand forecasts, improving forecast reliability for warehouse operations and vehicle-capacity planning on days previously predicted to have no demand.
+
+  ],
+)
 
 #regular-entry(
   [
@@ -142,15 +157,15 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   [
-    Feb 2026 – present
+    Feb 2026 – May 2026
 
   ],
   main-column-second-row: [
-    - Develop and maintain RAG services with LiteLLM and FastAPI, using Pydantic-validated structured outputs to reduce downstream parsing failures.
+    - Designed and launched an internal AI-assisted English assessment platform for workplace-specific proficiency evaluation, reducing reliance on external learning tools and enabling personalized employee feedback.
 
-    - Architect a modular Next.js\/PostgreSQL platform for CEFR-aligned content generation and evaluation, including automated grammar-correction workflows.
+    - Built LLM-driven workflows for question generation, evaluation-based response scoring, and structured feedback, enabling more scalable and consistent employee assessment.
 
-    - Improve LLM output consistency through prompt templates, schema validation, and REST API service boundaries.
+    - Developed adaptive learning logic using learner performance and assessment history to personalize practice difficulty, improve progression tracking, and better target individual skill gaps.
 
   ],
 )
@@ -165,11 +180,11 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Engineered a Dockerized computer-vision data engine with OpenCV, automated drift checks, and active-learning triggers, reducing labeling cost by approximately 20k THB\/year.
+    - Led development and production deployment of an Edge AI vision system for real-time product detection, orientation classification, and counting under constrained on-device compute.
 
-    - Deployed Grafana\/Prometheus monitoring for Edge AI inference on on-premise IoT sensors, improving visibility into production-line failures.
+    - Led fine-tuning and optimized a YOLO-based inference pipeline for edge deployment, achieving \<5\% misclassification while balancing model accuracy, latency, and compute constraints in production.
 
-    - Built data-cleaning and dataset-versioning workflows for edge computer-vision experiments.
+    - Initiated integration of automated visual inspection and monitoring into the manufacturing line, enabling earlier detection of misoriented or misclassified parts and reducing downstream operational risk.
 
   ],
 )
@@ -184,71 +199,51 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Built a data-driven control-logic prototype that integrated production data into PLC workflows.
+    - Proposed and developed a data-driven conveyor control strategy, replacing a fixed PLC cycle runtime with dynamic timing based on production conditions.
 
-    - Analyzed machine and production signals to support operational-efficiency improvement of approximately 10\%.
+    - Collaborated with senior engineers to integrate the control logic into PLC workflows, reducing average conveyor cycle time and reducing operational runtime by \>45\%.
 
   ],
 )
 
 == Projects
 
-  #regular-entry(
+#regular-entry(
   [
     #strong[Generative Video-Based Sky Image Forecasting for Thai Sky Images]
 
   ],
   [
+    Aug 2025 – May 2026
+
   ],
   main-column-second-row: [
-    - Implemented and optimized a VQ-VAE-based forecasting model with Charbonnier loss, perceptual loss, EMA codebook updates, and sub-pixel interpolation decoding.
+    - Led development of a generative video encoder-decoder forecasting model for Thai sky imagery, improving validation PSNR from 31.34 dB to 37.32 dB while prioritizing perceptual image quality.
 
-    - Achieved 37.32 dB peak validation PSNR, a 16\% improvement over baseline, while compressing channel-sequence representations for more stable temporal prediction.
+    - Revisited and benchmarked prior VQ-VAE architecture choices on the same sky dataset, then redesigned the forecasting pipeline around a pretrained VQ-VAE2 representation with Transformers and PhyCell for 15-minute stochastic cloud-motion prediction.
+
+    - Engineered a computer-vision data pipeline for 400–500 GB of sky video, reducing storage by \~95\% through synchronized frame sampling, resizing, and batch serialization.
 
   ],
 )
 
-  #regular-entry(
-  [
-    #strong[Coffee Chain Demand Forecasting System]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Engineered horizon-safe lag, rolling, event-proximity, calendar, and store-category demand features for daily product-level sales forecasting across representative coffee stores.
-
-    - Reduced internal walk-forward CV MAE by 12.2\% over the leakage-safe baseline and identified local-event and store-category behavior as the strongest business signals.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[On-Demand Delivery Data Platform & Decision Intelligence System]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Built ETL\/ELT workflows with Python, PostgreSQL, Airflow, dbt, and Docker to ingest raw JSON events into analytics-ready tables and feature-store structures.
-
-    - Added schema validation and time-aware model validation to support ETA and delay-prediction experiments.
-
-  ],
-)
-
-  #regular-entry(
+#regular-entry(
   [
     #strong[Football Player Value Forecasting & Similarity Recommendation System]
 
   ],
   [
+    Oct 2025 – Mar 2026
+
   ],
   main-column-second-row: [
-    - Developed time-series regression and clustering pipelines to forecast player market value and group players by role similarity.
+    - Conceived and built an end-to-end football scouting analytics system modeled on a professional recruitment workflow, spanning player identification, performance profiling, comparable-player discovery, and market valuation.
 
-    - Translated forecasting errors and cluster structures into recruitment and benchmarking insights.
+    - Reconciled 98.3\% of cross-source player records and engineered position-aware per-90 profiles for 3,755 players, enabling consistent comparison across leagues, positions, and playing roles.
+
+    - Guided modeling strategy for player valuation, working with teammates to refine features and model design and reduce RMSE from 136\% to 39\% versus baseline, improving the reliability of transfer-value signals used for player shortlisting.
+
+    - Advised on player-similarity modeling and feature design to surface comparable transfer targets, supporting squad-fit assessment and succession planning.
 
   ],
 )
@@ -257,7 +252,7 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
 #regular-entry(
   [
-    #strong[Microsoft AI Engineering Skills and Hackathon for Employment 2026]
+    #strong[Microsoft AI Engineering Skills and Hackathon for Employment 2026 (Finalist)]
 
   ],
   [
@@ -265,16 +260,16 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Reached finalist team stage among 2,000+ participants.
+    - Secured a finalist team spot from a competitive pool of 2,000+ regional participants.
 
-    - Built a dashboard-driven emergency-case intake and evaluation pipeline using Azure Foundry and Azure OpenAI.
+    - Designed and built a real-time emergency triage dashboard that transformed incoming cases into prioritized, actionable views for rapid response and case monitoring.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Thailand Super AI Engineer Season 6 — Coffee Chain Time-Series Hackathon]
+    #strong[Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Wellness Systems (Winner)]
 
   ],
   [
@@ -282,16 +277,18 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Led research and feature engineering for daily coffee-sales forecasting; designed seasonal and event-driven demand features.
+    - Invented a gas-leak detection system without conventional gas sensors, using infrared and ultrasonic propagation signals and achieving 0.76–0.92 recall across target gases.
 
-    - Contributed technical evidence for the pitching track by connecting forecasting features to inventory and order-optimization workflows.
+    - Led development of a worker fall-detection system, explicitly prioritizing recall to capture safety-critical events such as dizziness and falls, achieving 0.84 recall for preventive intervention.
+
+    - Built a real-time helmet safety monitoring system combining danger alerts with worker location tracking, reducing response delays to supervisors under 5 seconds.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Thailand Super AI Engineer Season 6 — Edge AI for Intelligent Transport Systems]
+    #strong[Thailand Super AI Engineer Season 6 — Enterprise Data Agentic Showdown (First Runner-Up)]
 
   ],
   [
@@ -299,24 +296,83 @@ AI engineering student and part-time AI engineer focused on production-oriented 
 
   ],
   main-column-second-row: [
-    - Developed a computer-vision data pipeline for traffic monitoring and anomaly detection.
+    - Architected an end-to-end financial document intelligence system spanning OCR, indexing, retrieval, and agentic question answering for complex financial documents.
 
-    - Used VLM-assisted inspection and semi-supervised learning techniques to bootstrap custom traffic datasets.
+    - Developed an OCR pipeline using vLLM and open-weight models, achieving 91.4\% accuracy on financial-document extraction tasks.
+
+    - Built a LangGraph-based OCR\/QA agent that orchestrated retrieval, tool use, and self-correction, achieving 62\% accuracy on the private evaluation set.
 
   ],
 )
 
-  #regular-entry(
+#regular-entry(
   [
-    #strong[I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification]
+    #strong[Thailand Super AI Engineer Season 6 — Coffee Chain Time-Series Hackathon (Pitching Team)]
 
   ],
   [
+    2026
+
   ],
   main-column-second-row: [
-    - Built a two-stage computer-vision pipeline using YOLOv8 for detection and ViT for classification.
+    - Challenged and replaced the existing retail demand-forecasting baseline with a LightGBM pipeline, reducing cross-validation MAE by 30.2\% (13.150 → 9.176).
 
-    - Designed automated data-cleaning and image-enhancement workflows; reached semifinals with over 90\% training accuracy and over 70\% accuracy on unseen real-world images.
+    - Prioritized high-error, high-volume product lines such as coffee and feature engineering to improve forecasts where errors carried the greatest inventory-planning impact.
+
+    - Pitched the forecasting solution, model evidence, and inventory-planning value to stakeholders.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Thailand Super AI Engineer Season 6 — Computer Vision Hackathon]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    - Researched and evaluated a multi-head ConvNeXt architecture for complex re-identification, exploring shared and task-specific representations across prediction heads.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification (Semi-finalist)]
+
+  ],
+  [
+    2024
+
+  ],
+  main-column-second-row: [
+    - Developed a Vision Transformer pipeline for safety-oriented motorbike anomaly classification, achieving 98.02\% accuracy and 0.99 AUC.
+
+    - Optimized the classification workflow for high-separability detection of dangerous rider or vehicle patterns, supporting automated traffic-safety screening.
+
+  ],
+)
+
+== Volunteer Experience
+
+#regular-entry(
+  [
+    #strong[Chulalongkorn University Electrical Engineering - Sustainable Development Goals] -- #strong[Saraburi, Thailand]
+
+  ],
+  [
+    March 2024 to March 2026
+
+  ],
+  main-column-second-row: [
+    - Served for two years as technical staff, planning and implementing the camp's electrical infrastructure, including power distribution, equipment requirements, and on-site installation.
+
+    - Elected Camp President in the final year; restructured the organizing team and led end-to-end planning across school selection, activity design, procurement, logistics, staffing, and on-site execution.
+
+    - Redesigned responsibilities and operating workflows across the organization to improve coordination and execution across camp functions.
 
   ],
 )

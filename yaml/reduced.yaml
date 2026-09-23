@@ -121,23 +121,10 @@ cv:
           - "Prioritized high-error, high-volume product lines such as coffee and feature engineering to improve forecasts where errors carried the greatest inventory-planning impact."
           - "Pitched the forecasting solution, model evidence, and inventory-planning value to stakeholders."
 
-      - name: Thailand Super AI Engineer Season 6 — Computer Vision Hackathon
-        date: 2026
-        highlights:
-
-        - "Researched and evaluated a multi-head ConvNeXt architecture for complex re-identification, exploring shared and task-specific representations across prediction heads."
-
-      - name: I-squared Hackathon — Motorbike Rider Anomaly Detection & Classification (Semi-finalist)
-        date: 2024
-        highlights:
-
-        - "Developed a Vision Transformer pipeline for safety-oriented motorbike anomaly classification, achieving 98.02% accuracy and 0.99 AUC."
-        - "Optimized the classification workflow for high-separability detection of dangerous rider or vehicle patterns, supporting automated traffic-safety screening."
-    
     volunteer_experience: # Another example using NormalEntry
       - name: Chulalongkorn University Electrical Engineering - Sustainable Development Goals
         location: Saraburi, Thailand
-        date: March 2024 to March 2026
+        date: 2024-03 to 2026-03
         highlights:
           - "Served for two years as technical staff, planning and implementing the camp's electrical infrastructure, including power distribution, equipment requirements, and on-site installation."
           - "Elected Camp President in the final year; restructured the organizing team and led end-to-end planning across school selection, activity design, procurement, logistics, staffing, and on-site execution."
